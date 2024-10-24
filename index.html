@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chetan Khadka - Online CV</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Fade-in effect for body */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Smooth container animation */
+        @keyframes scaleIn {
+            from { transform: scale(0.9); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+
+        /* Container styling */
+        .container {
+            max-width: 85%;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 40px;
+            position: relative;
+            animation: scaleIn 1.2s ease-in-out;
+            transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+        }
+
+        /* Hover effect for container */
+        .container:hover {
+            box-shadow: 0 16px 50px rgba(0, 0, 0, 0.2);
+            transform: translateY(-10px);
+        }
+
+        /* Profile section styling */
+        .profile {
+            flex: 1;
+            background-color: #00796b;
+            padding: 20px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover effect for profile section */
+        .profile:hover {
+            background-color: #004d40;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid white;
+        }
+
+        .profile h1 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        .profile p {
+            margin: 5px 0;
+        }
+
+        /* Personal description styling */
+        .profile .description {
+            margin-top: 20px;
+            font-size: 14px;
+            text-align: left;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Main content styling */
+        .main-content {
+            flex: 2;
+        }
+
+        /* Section heading styling */
+        h2 {
+            background-color: #00796b;
+            color: white;
+            padding: 10px;
+            margin: 0 -30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover effect for section headings */
+        h2:hover {
+            background-color: #004d40;
+        }
+
+        /* List styling */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .experience, .education {
+            margin-bottom: 20px;
+        }
+
+        /* Experience and education title styling */
+        h3 {
+            color: #00796b;
+            font-size: 20px;
+            transition: color 0.3s ease;
+        }
+
+        /* Hover effect for titles */
+        h3:hover {
+            color: #004d40;
+        }
+
+        /* Date styling */
+        .date {
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        /* Contact info styling in profile */
+        .profile .contact-info {
+            margin-top: 20px;
+        }
+
+        /* Smooth hover effect for contact links */
+        .profile a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .profile a:hover {
+            color: #ddd;
+        }
+
+        /* Smooth transitions for all links */
+        a {
+            color: #00796b;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #004d40;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Profile Section -->
+    <div class="profile">
+        <img src="DSC_1808.jpg" alt="Chetan Khadka">
+        <h1>Chetan Khadka</h1>
+        <p><strong>Current Address:</strong> Wolverhampton WV2 2BA, West Midlands, England</p>
+        <p><strong>Email:</strong> <a href="mailto:chetankhadka786@gmail.com">chetankhadka786@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+447741557376">+44 7741 557376</a></p>
+        
+        <!-- Personal Description -->
+        <div class="description">
+            <p>I am passionate about writing and storytelling, blending creativity with analytical thinking to craft compelling narratives. My background in sales, with over two years of experience, has equipped me with strong communication and relationship-building skills. I am excited to bring my unique perspective and skills to any challenge I encounter, especially in customer-facing roles.</p>
+        </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="main-content">
+        <!-- Work Experience Section -->
+        <div class="section">
+            <h2>Work Experience</h2>
+
+            <!-- Sales Executive at Timber Trading and Supplier Pvt. Ltd. -->
+            <div class="experience">
+                <h3>Sales Executive - Timber Trading and Supplier Pvt. Ltd.</h3>
+                <p class="date">September 2021 - July 2024</p>
+                <ul>
+                    <li>Led sales activities for timber products in a competitive market.</li>
+                    <li>Achieved a record sales target of 28 Lakh NPR (equivalent to £20,000) in a single week.</li>
+                    <li>Improved client acquisition by 15% through strategic marketing initiatives.</li>
+                    <li>Collaborated with a team of 5 to optimize supply chain efficiency, reducing costs by 10%.</li>
+                    <li>Built strong relationships with key clients, contributing to a 25% year-on-year revenue growth.</li>
+                </ul>
+            </div>
+
+            <!-- Kitchen Helper & Cleaner at Hotel Pauwa -->
+            <div class="experience">
+                <h3>Kitchen Helper & Cleaner - Hotel Pauwa, Dang</h3>
+                <p class="date">January 2020 - March 2021</p>
+                <ul>
+                    <li>Assisted kitchen staff with food preparation and cleaning duties.</li>
+                    <li>Maintained cleanliness and hygiene standards in the kitchen and dining area.</li>
+                    <li>Ensured timely service during peak business hours, improving efficiency by 12%.</li>
+                </ul>
+            </div>
+
+            <!-- Kitchen Helper & Cleaner at Soaltee Westend Premier -->
+            <div class="experience">
+                <h3>Kitchen Helper & Cleaner - Soaltee Westend Premier</h3>
+                <p class="date">May 2017 - July 2019</p>
+                <ul>
+                    <li>Supported kitchen operations by cleaning, dishwashing, and basic food preparation.</li>
+                    <li>Ensured compliance with hygiene and safety standards, contributing to high guest satisfaction.</li>
+                    <li>Collaborated with kitchen and service staff to maintain efficiency during peak hours.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <h2>Education</h2>
+
+            <div class="education">
+                <h3>Higher Education Certificate - Padmodaya Public Model Secondary School, Dang, Nepal</h3>
+                <p class="date">2020 - 2021</p>
+                <ul>
+                    <li>Specialized in Science, gaining a strong foundation in critical thinking, problem-solving, and analytical skills.</li>
+                    <li>Developed strong research skills and an understanding of scientific methods, preparing for future academic challenges.</li>
+                </ul>
+            </div>
+
+            <div class="education">
+                <h3>Bachelor of Science Hons in Psychology - University of Wolverhampton, West Midlands, London</h3>
+                <p class="date">2022 - Present</p>
+                <ul>
+                    <li>Currently pursuing a degree in Psychology, focusing on human behavior, mental health, and cognitive processes.</li>
+                    <li>Engaged in research projects and practical experiences to apply theoretical knowledge to real-world scenarios.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
